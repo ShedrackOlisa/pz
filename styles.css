@@ -1621,3 +1621,72 @@ font-size: 1.8rem;
     h1, h2, h3 {
         font-family: 'Merriweather', serif;
       }
+
+
+
+
+      
+      /* Download button styles */
+      .download-btn {
+          display: inline-flex;
+          align-items: center;
+          padding: 0.8rem 1.5rem;
+          background: var(--primary);
+          color: var(--light);
+          text-decoration: none;
+          border-radius: 8px;
+          transition: all 0.3s ease;
+          font-weight: 600;
+          gap: 0.8rem;
+          border: 2px solid transparent;
+      }
+      
+      .download-btn:hover {
+          background: #0069d9;
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+      }
+      
+      .download-btn i {
+          font-size: 1.1em;
+      }
+      
+      /* Outline variation */
+      .download-btn.outline {
+          background: transparent;
+          border-color: var(--primary);
+          color: var(--primary);
+      }
+      
+      .download-btn.outline:hover {
+          background: rgba(0,123,255,0.1);
+      }
+      
+      /* Different Sizes */
+      .download-btn.sm {
+          padding: 0.6rem 1rem;
+          font-size: 0.9rem;
+      }
+      
+      .download-btn.lg {
+          padding: 1rem 2rem;
+          font-size: 1.1rem;
+      }
+      
+      /* Mobile optimization */
+      @media (max-width: 768px) {
+          .download-btn {
+              width: 100%;
+              justify-content: center;
+          }
+      }
+
+
+      .download-btn + .download-btn {
+        margin-top: 1rem;
+    }
+
+
+    header + .article-page {
+        margin-top: 2.5rem;
+    }
