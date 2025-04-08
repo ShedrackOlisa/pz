@@ -1690,3 +1690,38 @@ font-size: 1.8rem;
     header + .article-page {
         margin-top: 2.5rem;
     }
+
+
+    
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .page-link {
+        padding: 10px 15px;
+        margin: 0 5px;
+        text-decoration: none;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      
+      .page-link:hover {
+        background-color: black;
+        color: #fff;
+        border-color: #333;
+      }
+      
+      .next {
+        /* background-color: #ff6f61; */
+        color: black;
+        border-color: #ddd;
+      }
+      
+      .next:hover {
+        background-color: black;
+        border-color: #333;
+      }
