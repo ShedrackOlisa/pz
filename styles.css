@@ -1725,3 +1725,29 @@ font-size: 1.8rem;
         background-color: black;
         border-color: #333;
       }
+
+
+
+
+      .info-box {
+        background: #1A1A1A;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 10px;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .social-links a {
+        color: var(--accent-color);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+        color: #00CC6A;
+    }
